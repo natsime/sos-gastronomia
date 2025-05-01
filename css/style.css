@@ -259,4 +259,8 @@ hr {
     font-size: 2rem;
     word-wrap: break-word;
   }
+
+  .lead {
+    font-size: 0.75rem;
+  }
 }
