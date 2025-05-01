@@ -253,3 +253,10 @@ hr {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 2rem;
+    word-wrap: break-word;
+  }
+}
