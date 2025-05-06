@@ -264,3 +264,88 @@ hr {
     font-size: 0.75rem;
   }
 }
+
+/* Menu page grid image cards */
+
+body.menu-page {
+  background: linear-gradient(135deg, #fdf9f2 0%, #fce5dc 100%);
+}
+
+body.menu-page .footer {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+body.menu-page .footer h5,
+body.menu-page .footer p,
+body.menu-page .footer i,
+body.menu-page .footer .footer-bottom {
+  color: var(--secondary-color);
+}
+
+.menu-section {
+  background-color: var(--primary-color);
+  padding: 4rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 6rem;
+}
+
+.menu-section .card {
+  border: 2px solid var(--primary-color);
+  transition: transform 0.3s ease;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: var(--tertiary-color);
+}
+
+.menu-section .card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-section .card img {
+  border-radius: 6px;
+  width: 20%;
+  margin: 0 auto 0.5rem;
+  object-fit: cover;
+  display: block;
+}
+
+.menu-section .card h5 {
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hover-animate {
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  color: var(--primary-color) !important;
+}
+
+.hover-animate:hover {
+  transform: translateY(-4px);
+  color: var(--primary-color) !important;
+}
+
+.hover-animate {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.hover-animate:hover {
+  transform: translateY(-4px);
+}
+
+/* Menu list in two columns on large screens */
+@media (min-width: 992px) {
+  .menu-list {
+    columns: 2;
+    column-gap: 3rem;
+  }
+  .menu-list p {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
+}

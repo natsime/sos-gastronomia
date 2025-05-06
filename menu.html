@@ -20,9 +20,9 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+  <body class="menu-page">
+    <!-- Navbar (reuse the one from homepage) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="/media/SOS.png" alt="SOS Gastronomia Logo" />
@@ -41,7 +41,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="menu.html">Menu</a>
+              <a class="nav-link active" href="#">Menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="chi-siamo.html">Chi siamo</a>
@@ -53,27 +53,89 @@
         </div>
       </div>
     </nav>
+    <main class="container py-5" style="padding-top: 120px">
+      <div class="menu-section">
+        <div class="row g-4 text-center">
+          <div class="col-md-4">
+            <a href="/caffetteria.html" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/coffe_r.png"
+                  alt="Caffetteria"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Caffetteria, amari e distillati</h5>
+              </div>
+            </a>
+          </div>
 
-    <!-- Hero Section -->
-    <header
-      class="hero-section d-flex align-items-center justify-content-center text-center"
-    >
-      <div class="overlay"></div>
-      <div class="hero-text container">
-        <h1 class="display-4 text-light">Il nostro menu</h1>
-        <p class="lead text-light">
-          Pizzeria - Pucceria - Panzerotteria - Paninoteca - Tabaccheria
-        </p>
-        <p class="small text-light">dal 1994</p>
-        <p class="text-light mt-4">
-          Al centro della Valle d’Itria, offriamo ai nostri clienti un menu
-          variegato e in continuo aggiornamento. Vieni a trovarci per gustare le
-          nostre specialità!
-        </p>
-        <a href="menu.html" class="btn btn-primary mt-3">Il nostro menu</a>
+          <div class="col-md-4">
+            <a href="#bevande" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/bevande_r.png"
+                  alt="Bevande e birre"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Bevande e birre</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#primi" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/salad_r.png"
+                  alt="Primi, secondi e insalate"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Primi, secondi e insalate</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#gastronomia" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/focacce_r.png"
+                  alt="Gastronomia e Focacce"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Gastronomia e Focacce</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#pucce" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/pucce_r.png"
+                  alt="Pucce, piadine e panini"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Pucce, piadine e panini</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a href="#pizze" class="text-decoration-none">
+              <div class="card p-3 h-100">
+                <img
+                  src="/media/pizze_r.png"
+                  alt="Pizze"
+                  class="img-fluid rounded mb-2"
+                />
+                <h5>Pizze</h5>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-    </header>
-
+    </main>
     <!-- Footer -->
     <footer class="footer mt-auto">
       <div class="footer-content">
