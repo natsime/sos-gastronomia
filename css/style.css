@@ -338,6 +338,10 @@ body.menu-page .footer .footer-bottom {
   transform: translateY(-4px);
 }
 
+hr {
+  border-top: 1px solid #ffffff;
+}
+
 /* Menu list in two columns on large screens */
 @media (min-width: 992px) {
   .menu-list {
